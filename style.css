@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+ overflow-x: hidden;
+ background-image: url(wp4.jpg);
+ /* padding: 1rem 5rem 8rem 5rem; */
+ /* color: white; */
+ background-size: cover;
+ background-position: center;
+ /* display: flex; */
+ min-height: 100vh;
+ flex-direction: column;
+ border: solid;
+ box-sizing: border-box;
+ color: white;
+}
+
+
+/* #navigate .links{
+ display: inline;
+ font-family: "roboto";
+ color: white;
+ box-sizing: border-box;
+ border: solid white;
+} */
+
+#navigate{
+ text-align: justify; 
+ display: inline;
+ 
+}
+
+.list .links{
+    box-sizing: border-box;
+    border: solid 2px;
+    background-color: antiquewhite;
+    /* display: inline; */
+}
+
+.links > li{
+display: inline;
+justify-content: space-between;
+}
+
+/* .list .links >a{ */
+    display: inline;
+    text-align: right;
+    color: aliceblue;
+
+/* } */
+
+.intro{
+    color: gray;
+    box-sizing: border-box;
+    border: solid;
+}
+
+.home{
+    box-sizing: border-box;
+    border: solid 4px;
+    background-color: antiquewhite;
+}
+
+.next{
+    /* color: brown; */
+    box-sizing: border-box;
+    border:  black solid 20px;
+}
+
+
+#about{
+    box-sizing: border-box;
+    border: black solid;
+    padding: 2px 5px 2px;
+}
+
+.contact{
+    box-sizing: border-box;
+    border: solid grey;
+}
+
+.resume{
+    box-sizing: border-box;
+    border: dotted green;
+}
+
